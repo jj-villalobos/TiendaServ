@@ -1,0 +1,24 @@
+web1:
+  name: cakephp
+  document_root: app/webroot
+  shared_writable_dirs:
+    - app/tmp
+    - app/tmp/cache
+    - app/tmp/cache/models
+    - app/tmp/cache/persistent
+    - app/tmp/cache/views
+    - app/tmp/logs
+    - app/tmp/sessions
+    - app/tmp/tests
+  php_extensions:
+    - mcrypt
+    - mbstring
+    - mysqli
+    - pdo_mysql
+    - apc
+  after_build:
+    - "mv pagoda/database.php app/Config/database.php"
+    - "mv pagoda/core.php app/Config/core.php"
+db1:
+  name: cakephp
+  type: mysql

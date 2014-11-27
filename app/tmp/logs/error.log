@@ -1,0 +1,1239 @@
+2014-08-20 18:14:35 Error: [MissingControllerException] Controller class PhpStorm-158a1017-82d0-48fa-a973-7889741ae1ca.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpStorm-158a1017-82d0-48fa-a973-7889741ae1ca.phpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/PhpStorm-158a1017-82d0-48fa-a973-7889741ae1ca.php
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:12:27 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:14:24 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:19:11 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:19:17 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:19:19 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:19:58 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/post/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:20:03 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:23:23 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-01 18:24:17 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('posts')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\cakephp\app\Controller\PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-09-01 18:27:00 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp/posts/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-03 17:32:46 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\PostsController.php, line 45]
+2014-09-03 17:32:46 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/posts/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 17:33:18 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\PostsController.php, line 25]
+2014-09-03 17:33:18 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 17:33:36 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\PostsController.php, line 25]
+2014-09-03 17:33:36 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 17:34:09 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\PostsController.php, line 25]
+2014-09-03 17:34:09 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 17:39:26 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [C:\xampp\htdocs\cakephp\app\Controller\PostsController.php, line 25]
+2014-09-03 17:39:26 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 25, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-03 18:22:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-09-03 18:35:40 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-03 18:36:51 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-03 18:42:54 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-03 18:43:02 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 17:05:07 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 17:05:30 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Users\\index.ctp',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-09-08 17:57:50 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-09-08 18:11:54 Error: Fatal Error (1): Class 'ProgressHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 11]
+2014-09-08 18:11:54 Error: [FatalErrorException] Class 'ProgressHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:13:02 Error: Fatal Error (1): Call to undefined method ProgressHelper::bar() in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 15]
+2014-09-08 18:13:02 Error: [FatalErrorException] Call to undefined method ProgressHelper::bar()
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:13:34 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 6]
+2014-09-08 18:13:34 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:30 Error: Fatal Error (1): Class 'ProgressHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 11]
+2014-09-08 18:15:30 Error: [FatalErrorException] Class 'ProgressHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Progress...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:47 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:47 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:49 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:49 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:49 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:49 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:50 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:50 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:50 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:50 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:15:53 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:15:53 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:16:12 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:16:12 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:16:13 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:16:13 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-08 18:16:15 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ProgressHelperTest.php, line 5]
+2014-09-08 18:16:15 Error: [FatalErrorException] Class 'AppHelper' not found
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-10 17:52:49 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'testdb.articles' doesn't exist
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(3151): PDOStatement->execute()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\Fixture\CakeTestFixture.php(298): DboSource->insertMulti('articles', Array, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(233): CakeTestFixture->insert(Object(Mysql))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestCase.php(80): CakeFixtureManager->load(Object(ArticleTest))
+#4 C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php(775): CakeTestCase->run(Object(PHPUnit_Framework_TestResult))
+#5 C:\xampp\php\pear\PHPUnit\Framework\TestSuite.php(745): PHPUnit_Framework_TestSuite->runTest(Object(ArticleTest), Object(PHPUnit_Framework_TestResult))
+#6 C:\xampp\php\pear\PHPUnit\TextUI\TestRunner.php(349): PHPUnit_Framework_TestSuite->run(Object(PHPUnit_Framework_TestResult), false, Array, Array, false)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestRunner.php(60): PHPUnit_TextUI_TestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestSuiteCommand.php(96): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(253): CakeTestSuiteCommand->run(Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#11 C:\xampp\htdocs\cakephp\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#12 C:\xampp\htdocs\cakephp\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#13 {main}
+2014-09-11 17:33:57 Error: Fatal Error (64): Cannot redeclare class ArticleTest in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ArticleTest.php, line 9]
+2014-09-11 17:33:57 Error: [FatalErrorException] Cannot redeclare class ArticleTest
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 17:34:13 Error: Fatal Error (64): Cannot redeclare class ArticleTest in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ArticleTest.php, line 9]
+2014-09-11 17:34:13 Error: [FatalErrorException] Cannot redeclare class ArticleTest
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-09-11 17:34:51 Error: Fatal Error (64): Cannot redeclare class ArticleTest in [C:\xampp\htdocs\cakephp\app\Test\Case\View\Helper\ArticleTest.php, line 9]
+2014-09-11 17:34:51 Error: [FatalErrorException] Cannot redeclare class ArticleTest
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-13 18:09:47 Error: [MissingTableException] Table posts for model Post was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'posts',
+  'class' => 'Post',
+  'ds' => 'default',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('posts')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\cakephp\app\Controller\PostsController.php(6): Model->find('all')
+#4 [internal function]: PostsController->index()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-10-13 18:19:49 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 18:20:08 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 18:23:09 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 18:26:56 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /cakephp/app/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-13 18:27:02 Error: [MissingControllerException] Controller class TiendaController could not be found.
+Exception Attributes: array (
+  'class' => 'TiendaController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tienda
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 18:28:20 Error: [MissingControllerException] Controller class ArticleController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticleController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/article
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-13 18:28:27 Error: [MissingTableException] Table articles for model Article was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'articles',
+  'class' => 'Article',
+  'ds' => 'default',
+)
+Request URL: /cakephp/articles
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('articles')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#3 C:\xampp\htdocs\cakephp\app\Controller\ArticlesController.php(14): Model->find('all')
+#4 [internal function]: ArticlesController->index()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-10-13 18:29:00 Error: [MissingControllerException] Controller class ProductController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/product
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-15 17:18:14 Error: [MissingControllerException] Controller class TestController could not be found.
+Exception Attributes: array (
+  'class' => 'TestController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-15 17:21:49 Error: [MissingControllerException] Controller class TestphpController could not be found.
+Exception Attributes: array (
+  'class' => 'TestphpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/testphp
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 17:21:54 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-05 16:49:28 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/phpmyadmin
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 16:36:26 Error: [MissingControllerException] Controller class PlatformaddController could not be found.
+Exception Attributes: array (
+  'class' => 'PlatformaddController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/platformadd
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-06 16:45:27 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 16:45:27 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 16:50:07 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 16:50:07 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:27:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:27:32 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:27:36 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:27:36 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:40:51 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-06 17:40:51 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 16:28:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Product.enabled' in 'where clause'
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Product...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Product...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Product...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-10 17:49:04 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-10 17:49:04 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:12:00 Error: [MissingTableException] Table checks for model Check was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'checks',
+  'class' => 'Check',
+  'ds' => 'default',
+)
+Request URL: /cakephp/debitcard/register
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('checks')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(2494): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1719): DboSource->fields(Object(Check), 'Check', '')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1093): DboSource->generateAssociationQuery(Object(Debitcard), Object(Check), 'belongsTo', 'Check', Array, Array, false)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Debitcard), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(597): Model->find('first', Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(808): DboSource->query('findByCardNumbe...', Array, Object(Debitcard))
+#9 C:\xampp\htdocs\cakephp\app\Controller\DebitcardController.php(49): Model->__call('findByCardNumbe...', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\DebitcardController.php(49): Debitcard->findByCardNumber('123456781234567...')
+#11 [internal function]: DebitcardController->register()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(DebitcardController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(DebitcardController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:12:18 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:12:40 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:34:26 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:34:33 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:34:38 Error: [NotFoundException] Invalid product
+Request URL: /cakephp/products/view
+Stack Trace:
+#0 [internal function]: ProductsController->view()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-12 16:34:48 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:35:13 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:35:13 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /cakephp/users/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:35:20 Error: [MissingTableException] Table check_products for model CheckProduct was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'check_products',
+  'class' => 'CheckProduct',
+  'ds' => 'default',
+)
+Request URL: /cakephp/products
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3525): Model->setSource('check_products')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(872): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(900): Model->__isset('CheckProduct')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3601): Model->__get('CheckProduct')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1757): Model->joinModel('CheckProduct', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1238): DboSource->generateAssociationQuery(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(Product), Object(Check), 'hasAndBelongsTo...', 'Check', Array, Array, true, Array, 0, Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Product), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2893): Model->_readDataSource('all', Array)
+#10 C:\xampp\htdocs\cakephp\app\Controller\ProductsController.php(15): Model->find('all', Array)
+#11 [internal function]: ProductsController->index()
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-11-12 16:38:16 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:38:16 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:39:09 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:39:09 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:44:01 Error: Fatal Error (4): syntax error, unexpected ''tax'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\cakephp\app\Model\Product.php, line 89]
+2014-11-12 16:44:01 Error: [FatalErrorException] syntax error, unexpected ''tax'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /cakephp/products/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 89, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 89, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 16:45:21 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:45:21 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:46:02 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:46:02 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:46:45 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:46:45 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:47:51 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:47:51 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:49:02 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:49:02 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:49:16 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:49:16 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:50:29 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:50:29 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 16:59:29 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cakephp\app\View\Checks\check.ctp, line 84]
+2014-11-12 16:59:29 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp/checks/check
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 84)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 84, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 84, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 17:01:42 Error: Fatal Error (4): syntax error, unexpected ''$<br><b>Precio total con impu' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [C:\xampp\htdocs\cakephp\app\View\Checks\check.ctp, line 97]
+2014-11-12 17:01:42 Error: [FatalErrorException] syntax error, unexpected ''$<br><b>Precio total con impu' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp/checks/check
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 17:02:39 Error: Fatal Error (4): syntax error, unexpected ''$<br><b>Precio total con impu' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in [C:\xampp\htdocs\cakephp\app\View\Checks\check.ctp, line 97]
+2014-11-12 17:02:39 Error: [FatalErrorException] syntax error, unexpected ''$<br><b>Precio total con impu' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+Request URL: /cakephp/checks/check
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 97, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-12 17:08:14 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:08:14 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:08:21 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:08:21 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:08:50 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:08:50 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:09:15 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg02.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-12 17:09:15 Error: [MissingActionException] Action ProductsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProductsController',
+  'action' => 'img',
+)
+Request URL: /cakephp/products/img/bg01.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
