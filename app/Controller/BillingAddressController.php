@@ -32,7 +32,7 @@ class BillingAddressController extends AppController {
                 if($this->BillingAddress->save($this->request->data))
                 {
                     $address_id = $this->BillingAddress->getLastInsertID();
-                    $this->BillingAddress->BaddressUser->saveAll(['address_id' => $address_id, 'user_id'=>$user]);
+                    $this->BillingAddress->BaddressUser->saveAll(array('address_id' => $address_id, 'user_id'=>$user));
                     $this->Session->setFlash(__('Se ha registrado la dirección de facturación'));
                     return $this->redirect(array('controller' => 'users', 'action' => 'view', $this->Session->read("Auth.User.id")));
                 }

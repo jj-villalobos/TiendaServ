@@ -52,7 +52,7 @@ class CreditcardController extends AppController
 
             if(($cardnumber == $card['Creditcard']['card_number']) && ($cardcsc == $card['Creditcard']['csc']))
             {
-                $this->Creditcard->CardUser->saveAll(['user_id'=>$user, 'card_id'=>$card['Creditcard']['id'],'card_type'=> $card_type]);
+                $this->Creditcard->CardUser->saveAll(array('user_id'=>$user, 'card_id'=>$card['Creditcard']['id'],'card_type'=> $card_type));
                 $this->Session->setFlash(__('Se ha registrado su tarjeta'));
                 return $this->redirect(array('controller' => 'products', 'action' => 'index'));
             }

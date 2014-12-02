@@ -93,7 +93,7 @@ class ChecksController extends AppController
 				if ($this->Check->save($this->request->data)) {
 					$id = $this->request->data['Check']['id'];
 					$this->Check->read(null, $id);
-					$this->Check->set(['debitcard_id'=>$debCard,'shipping_addresses_id'=>$address, 'amount'=>$total, 'general_discount'=> 0, 'sold_the'=>date("Y-m-d H:i:s")]);
+					$this->Check->set(array('debitcard_id'=>$debCard,'shipping_addresses_id'=>$address, 'amount'=>$total, 'general_discount'=> 0, 'sold_the'=>date("Y-m-d H:i:s")));
 					$this->Check->save();
 					$checkId = $this->Check->id;
 				}

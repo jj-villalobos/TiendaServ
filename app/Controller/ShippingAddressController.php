@@ -27,7 +27,7 @@ class ShippingAddressController extends AppController
                 if ($this->ShippingAddress->save($this->request->data))
                 {
                     $address_id = $this->ShippingAddress->getLastInsertID();
-                    $this->ShippingAddress->SaddressUser->saveAll(['address_id' => $address_id, 'user_id'=>$user]);
+                    $this->ShippingAddress->SaddressUser->saveAll(array('address_id' => $address_id, 'user_id'=>$user));
                     $this->Session->setFlash(__('Se ha registrado la dirección de envío'));
                     return $this->redirect(array('controller' => 'users', 'action' => 'view', $this->Session->read("Auth.User.id")));
                 }

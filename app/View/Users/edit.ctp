@@ -145,7 +145,7 @@
                         <?php unset($address); ?>
                         </table>
                 <?php
-                echo $this->Html->link('Registrar nueva dirección de envío',array('controller' =>'shippingaddress','action'=>'add'));
+                echo $this->Html->link('Registrar nueva dirección de envío',array('controller' =>'ShippingAddress','action'=>'add'));
                 ?>
                 <?php
 		        if($this->Session->read('Auth.User.role')== 'admin')
