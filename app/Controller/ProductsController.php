@@ -151,7 +151,7 @@ class ProductsController extends AppController
 			if ($this->request->is('post')) { 
 				$this->Product->create();
 				if ($this->Product->save($this->request->data)) {
-					$this->Product->Stock->save(['product_id'=>$this->Product->id, 'amount'=>$this->request->data['Product']['amount']]);
+					$this->Product->Stock->save('product_id'=>$this->Product->id, 'amount'=>$this->request->data['Product']['amount']);
 					if($this->request->data['Product']['archivo']['error'] == 0 &&  $this->request->data['Product']['archivo']['size'] > 0){
 					  // Informacion del tipo de archivo subido $this->data['Product']['archivo']['type']
 					  //$destino = WWW_ROOT.'uploads'.DS;
