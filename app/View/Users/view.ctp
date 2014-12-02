@@ -63,11 +63,11 @@
             echo "Rol: ".h($users['User']['role'])." ";
         } ?></h3>
         <h3><?php
-            echo $this->Html->link("Tarjetas registradas",array('controller' => 'carduser', 'action' => 'index'));
+            echo $this->Html->link("Tarjetas registradas",array('controller' => 'CardUser', 'action' => 'index'));
         ?></h3>
         <br>
         <h3><?php
-            echo $this->Html->link("Mis Compras",array('controller' => 'checkproduct', 'action' => 'sales'));
+            echo $this->Html->link("Mis compras",array('controller' => 'CheckProduct', 'action' => 'sales'));
         ?></h3>
         <br>
 		<h3>Direcciones de envío</h3><br>
@@ -90,7 +90,7 @@
             </table>
 		<br><br>
 		<br>
-                		<h3>Dirección de Facturación</h3><br>
+                		<h3>Dirección de facturación</h3><br>
                 		<h3><?php
                             if(empty($billaddress))
                             {

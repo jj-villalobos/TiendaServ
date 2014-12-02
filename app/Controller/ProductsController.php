@@ -49,7 +49,7 @@ class ProductsController extends AppController
             throw new NotFoundException(__('Invalid product'));
         }
 		$this->set('platform', $this->Product->Platform->find('first', array('conditions' => array('Platform.id' == $product['Product']['platform_id']))));
-		$this->set('categories', $this->Product->Category->find('list'));
+		$this->set('categories', $this->Category->CategoryProduct->find('list'), array('conditions' => array('product_id' == $product['Product']['id'])));
 		$this->set('cant', $this->Product->Stock->find('first', array('conditions' => array('Stock.product_id' == $product['Product']['id']))));
         $this->set('product', $product);
 		

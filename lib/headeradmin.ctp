@@ -110,7 +110,7 @@
             	?>
 		        <ul>
                     <li align=center><a>Vista del administrador</a></li>
-                    <li align=center><?php echo $this->Html->link('Ventas',array('controller'=>'checkproduct','action' => 'sales'));?></li>
+                    <li align=center><?php echo $this->Html->link('Ventas',array('controller'=>'CheckProduct','action' => 'sales'));?></li>
                     <li align=center><?php echo $this->Html->link('Agregar producto',array('controller'=>'products','action' => 'add'));?></li>
                     <li align=center><?php echo $this->Html->link('Ayuda',array('controller'=>'users','action' => 'help'));?></li>
                 </ul>

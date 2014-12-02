@@ -83,6 +83,8 @@
                 echo "En proceso";
                 elseif($check['Check']['dstatus']==2)
                 echo "Entregada";
+				elseif($check['Check']['dstatus']==3)
+                echo "En casillero";
                 //echo $inter;
 
             echo'</td></tr><br>';

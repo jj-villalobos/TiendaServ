@@ -74,7 +74,7 @@
                     </tr>
                     <?php foreach ($dcard_num as $dcardnum => $value): ?>
                     <tr>
-                        <td><?php echo "------------".$value[12].$value[13].$value[14].$value[15]; ?></td>
+                        <td><?php echo $value; ?></td>
                         <td>
                             <?php echo $this->Html->link('Eliminar', array('controller' => 'CardUser', 'action' => 'delete_debit', $dcardnum)); ?>
                         </td>
@@ -93,7 +93,7 @@
                     </tr>
                     <?php foreach ($ccard_num as $ccardnum => $value): ?>
                     <tr>
-                        <td><?php echo "------------".$value[12].$value[13].$value[14].$value[15]; ?></td>
+                        <td><?php echo $value; ?></td>
                         <td>
                             <?php echo $this->Html->link('Eliminar', array('controller' => 'CardUser', 'action' => 'delete_credit', $ccardnum)); ?>
                         </td>
@@ -125,6 +125,9 @@
                     <?php endforeach; ?>
                     <?php unset($address); ?>
                     </table>
+                <?php
+                echo $this->Html->link('Registrar nueva dirección de envío',array('controller' =>'ShippingAddress','action'=>'add'));
+                ?>
                 <?php echo "Dirección de Facturación:"; ?><br><br>
                     <table>
                     <tr>
@@ -140,13 +143,10 @@
                                 echo $this->Html->link('Eliminar', array('controller' => 'BillingAddress', 'action' => 'delete', $address), array('confirm' => '¿Seguro?'));
                             ?>
                             </td>
-                        </tr>
-                        <?php endforeach; ?>
-                        <?php unset($address); ?>
-                        </table>
-                <?php
-                echo $this->Html->link('Registrar nueva dirección de envío',array('controller' =>'ShippingAddress','action'=>'add'));
-                ?>
+                     </tr>
+                     <?php endforeach; ?>
+                     <?php unset($address); ?>
+                     </table>
                 <?php
 		        if($this->Session->read('Auth.User.role')== 'admin')
 		        {
