@@ -13,7 +13,7 @@ class CheckFixture extends CakeTestFixture {
     public $records = array(
         array(
             'id' => 1,
-            'debitcard_id' => '12345678',
+            'debitcard_id' => 1,
             'amount'=> '10000',
             'general_discount' => '0',
             'sold_the' => '2014-11-11'

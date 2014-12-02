@@ -6,27 +6,33 @@ class DebitcardFixture extends CakeTestFixture {
     public $records = array(
         array(
             'id' => 1,
-            'card_number' => '4185417256930711',
-            'nip' => '1234',
-            'csc' => '4321',
+            'card_number' => '1185417256930701',
+            'nip' => '1122',
+            'csc' => '2211',
             'expiration_date' => '2018-12-10',
+            'brand' => 'Visa',
             'balance' => 1000,
+            'check_id' => 0
         ),
         array(
             'id' => 2,
-            'card_number' => '5185417256930712',
-            'nip' => '5678',
-            'csc' => '8765',
+            'card_number' => '2185417256930702',
+            'nip' => '3344',
+            'csc' => '4433',
             'expiration_date' => '2018-12-10',
-            'balance' => 1000,
+            'brand' => 'Master Card',
+            'balance' => 2000,
+            'check_id' => 0
         ),
         array(
             'id' => 3,
-            'card_number' => '6185417256930713',
-            'nip' => '9012',
-            'csc' => '2109',
+            'card_number' => '3185417256930703',
+            'nip' => '5566',
+            'csc' => '6655',
             'expiration_date' => '2018-12-10',
-            'balance' => 1000,
+            'brand' => 'American Express',
+            'balance' => 3000,
+            'check_id' => 0
         )
     );
 }

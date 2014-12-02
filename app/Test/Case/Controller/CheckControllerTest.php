@@ -7,16 +7,18 @@
  */
 class CheckControllerTest extends ControllerTestCase
 {
-    public $fixtures = array('app.check','app.checkproduct');
+    public $fixtures = array('app.check','app.checkproduct','app.carduser','app.debitcard','app.product');
 
     public function testCheck() {
         $result = $this->testAction('checks/check');
         debug($result);
     }
 	
-	public function testReceipt(){
-		$result = $this->testAction('checks/receipt');
+	public function testView(){
+		$result = $this->testAction('checks/view/1');
 		debug($result);
 	}
+
+
 }
 ?>

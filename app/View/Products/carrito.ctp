@@ -107,6 +107,8 @@
         <?php
             echo '<p><div align="right"><b>Precio total de la compra: </b>'.$total.'$<br><b>Precio total con descuentos: </b>'.$totalConDesc.'$<br><br>';
             echo $this->Form->create("Checks",array('action' => 'check'));
+			echo $this->Form->input('address', array('title' => 'Direccion de Envio', 'type' => 'select', 'options' => $address, 'empty' => 'Seleccione su direccion de envio', 'label' => 'Direccion de envio: '));
+			echo '<br><br><br>';
             echo $this->Form->end("Realizar compra");
             echo '</div></p>';
         ?>

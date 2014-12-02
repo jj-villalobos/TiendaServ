@@ -67,11 +67,29 @@
 
     <?php
         echo '<div align="center"><table>';
+        echo $this->Form->postLink('Actualizar estado',array('action' => 'cstatus'))."<br><br>";
         foreach($checks as $check){
-			echo '<tr><td>'.$this->Html->link('Factura #:'.$check['Check']['id'],array('controller'=>'checks','action'=>'view',$check['Check']['id'])).'<br>Monto total: '.$check['Check']['amount'].'$<br>Fecha de factura: '.$check['Check']['sold_the'].'</td></tr><br>';
+			echo '<tr><td>'.$this->Html->link('Factura #:'.$check['Check']['id'],array('controller'=>'checks','action'=>'view',$check['Check']['id'])).'<br>Monto total: '.$check['Check']['amount'].'$<br>Fecha de factura: '.$check['Check']['sold_the'].'<br>';
+
+            echo "Estado del envío: ";
+                //date("Y-m-d H:i:s");
+                $time = strtotime($check['Check']['sold_the']);
+                $curtime = time();
+                $inter = $curtime-$time;
+                //echo $inter;
+                if($check['Check']['dstatus']==0)
+                echo "Enviada";
+                elseif($check['Check']['dstatus']==1)
+                echo "En proceso";
+                elseif($check['Check']['dstatus']==2)
+                echo "Entregada";
+                //echo $inter;
+
+            echo'</td></tr><br>';
 		}
 		echo '</table></div>'
     ?>
+
 
 </div>
 

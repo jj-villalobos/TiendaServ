@@ -51,8 +51,6 @@
 
  <div id="data">
 
-  <?php echo $this->Html->link("Añadir nuevo producto",array('controller' => 'products', 'action' => 'add'));
-   echo "<br><br>"; ?>
  <h3>Detalles de Ventas</h3>
 
   <table >

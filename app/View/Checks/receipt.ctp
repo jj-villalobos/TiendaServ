@@ -67,7 +67,8 @@
 
     <?php
         if(isset($idCheck)){
-			echo '<br><div align="center"><H3>FACTURA #: '.$idCheck.'</H3><H4>Total facturado: '.$finalPrice.'$</H4></div>';
+			echo '<br><div align="center"><H3>FACTURA #: '.$idCheck.'</H3><H4>Total facturado: '.$finalPrice.'$</H4>';
+			echo '<br><br><b>DIRECCION DE ENVIO:</b> '.$direccion.'</div>';
 			echo '<div id="simple">
 					<br><br><div align="center">¡GRACIAS POR SU COMPRA!</div><br><br>
 				</div>';

@@ -69,6 +69,7 @@
     if(isset($items)){
 	echo '<br>&nbsp'.$this->Html->link('Volver', array('controller' => 'checks', 'action' => 'index'));
 	echo '<br><br><div align="center"><H3>Factura #'.$check['Check']['id'].' &nbspTotal: $'.$check['Check']['amount'].' &nbspVendido el: '.$check['Check']['sold_the'].'</H3></div><br>';
+	echo '<br><div align="center">Direccion de envio: '.$address.'</div><br>';
 	foreach($products as $product){ ?>
 			<div id="simple">
             <tr>

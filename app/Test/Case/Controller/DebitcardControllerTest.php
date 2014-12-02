@@ -8,6 +8,5 @@ class DebitcardControllerTest extends ControllerTestCase
         $result = $this->testAction('/debitcard/add');
         debug($result);
     }
-
 }
 ?>
